@@ -4,14 +4,14 @@ export const About = () => {
   return (
     <>
       <section className="w-full h-[100vh] bg-white flex justify-center items-center">
-        <div className=" w-full h-[90%] flex flex-col lg:flex-row">
+        <div className=" w-full h-full lg:h-[90%] flex flex-col lg:flex-row">
           <div className="w-full lg:w-[50%] h-[50%] md:h-[45%] lg:h-full flex flex-col justify-center">
             <div className="order-2 lg:order-1 w-full h-[85%] lg:h-[60%] flex justify-center lg:justify-end">
-              <div className="w-[80%] h-full flex flex-col justify-center">
+              <div className=" w-[90%] md:w-[80%] h-full flex flex-col justify-center">
                 <p className="text-[30px] pb-3 lg:pb-7 md:text-[40px] text-center lg:text-start font-bold tracking-tighter font-Poppins text-[#181E4B]">
                   ABOUT US
                 </p>
-                <p className=" xl:w-[88%] text-sm md:text-lg lg:text-[15px] xl:text-lg text-center lg:text-start text-[#5E6282]">
+                <p className=" pb-5 lg:pb-0 xl:w-[88%] text-sm md:text-lg lg:text-[15px] xl:text-lg text-center lg:text-start text-[#5E6282]">
                   And produce say the ten moments parties. Simple innate summer
                   fat appear basket his desire joy. Outward clothes promise at
                   gravity do excited. Sufficient particular impossible by
