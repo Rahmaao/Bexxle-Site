@@ -4,8 +4,9 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <section className="w-screen h-screen bg-pink-600">
+      <div >
+      </div>
+    </section>
   );
 }

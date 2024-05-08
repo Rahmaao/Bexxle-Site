@@ -45,21 +45,26 @@ export const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex items-center lg:items-end justify-around flex-wrap fixed top-0 left-0 w-full lg:px-10 h-24 lg:h-32 transition-transform duration-300 
+        className={`flex items-center lg:items-end justify-around flex-wrap fixed top-0 left-0 w-full lg:px-10 h-24 lg:h-32 transition-all duration-300 
   ${isVisible ? "transform translate-y-0" : "-translate-y-full"}
   ${
-    isScrolledUp && !isAtTop
-      ? "bg-zinc-900 bg-opacity-20"
-      : isAtTop && isMobile
+    isMobile
       ? "bg-white"
+      : isScrolledUp && !isAtTop
+      ? "bg-[#A2C5F4] bg-opacity-20"
       : ""
-  }`}
+  }
+`}
       >
         <a
           className="inline-flex items-center pl-3 lg:pl-0 h-[90%] w-[50%] lg:w-[15%]"
           href=""
         >
-          <img src="/bexxle-logo.svg" alt="" className="object-fill" />
+          <img
+            src="/bexxle-logo.svg"
+            alt=""
+            className="object-contain w-full h-full"
+          />
         </a>
         <button
           className=" inline-flex p-3 hover:text-[#6554CF] rounded lg:hidden text-zinc-900 ml-auto  outline-none"
