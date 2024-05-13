@@ -4,6 +4,7 @@ import { Navbar } from "../components/navbar";
 import {Footer} from "../components/footer";
 import { Partners } from "../pages/partners";
 import { About } from "../pages/about";
+import { Solutions } from "../pages/solution";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         {children}
         <Partners/>
         <About/>
+        <Solutions/>
         <Footer />
       </body>
     </html>
