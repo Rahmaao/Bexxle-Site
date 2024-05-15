@@ -45,6 +45,17 @@ body {
 }
 
 
+@media (min-width: 376px) and (max-width: 450px) {
+
+  .about-boxes{
+    height: 80%;
+  }
+
+  .solutionsbtn{
+    height: 65%;
+  }
+  
+  }
 
 
 

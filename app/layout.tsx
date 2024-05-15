@@ -5,6 +5,7 @@ import {Footer} from "../components/footer";
 import { Partners } from "../pages/partners";
 import { About } from "../pages/about";
 import { Solutions } from "../pages/solution";
+import { Process } from "../pages/process";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Partners/>
         <About/>
         <Solutions/>
+        <Process/>
         <Footer />
       </body>
     </html>
