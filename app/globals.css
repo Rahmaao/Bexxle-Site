@@ -20,7 +20,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -28,12 +28,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+html, body {
+  background-color: #ffffff;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.group p {
+  transition: color 500ms ease; 
+}
+
+.group:hover p {
+  color: #DF40FA; 
+}
+
+
+.group .numero {
+  font-size: 140px; /* Initial font size */
+  transition: font-size 500ms ease; /* Add a transition for the font-size property */
+}
+
+.group:hover .numero {
+  font-size: 165px; /* Increase font size on hover */
+}
+
+.input-field::placeholder{
+  font-size: small;
+
 }
 
 
@@ -45,6 +73,37 @@ body {
 }
 
 
+@media (min-width: 376px) and (max-width: 450px) {
+
+  .about-boxes{
+    height: 80%;
+  }
+
+  .solutionsbtn{
+    height: 65%;
+  }
+
+  .partner-section{
+    height: 35vh;
+  }
+
+  .process-section{
+    height: 80vh;
+  }
+
+  .solution-section{
+    height: 100vh;
+  }
+
+  .team-section{
+    min-height: 100vh;
+  }
+
+  .quote-section{
+    min-height: 100vh;
+  }
+  
+  };
 
 
 

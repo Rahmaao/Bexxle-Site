@@ -11,11 +11,15 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "process": "url('/process.svg')",
+        "process2": "url('/process2.svg')",
       },
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
        },
     },
+
+    
   },
   plugins: [],
 };

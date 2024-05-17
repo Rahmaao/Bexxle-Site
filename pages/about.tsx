@@ -3,7 +3,7 @@
 export const About = () => {
   return (
     <>
-      <section className="w-full h-[100vh] bg-white flex justify-center items-center">
+      <section id="about" className="w-full h-[100vh] bg-white flex justify-center items-center lg:mb-10">
         <div className=" w-full h-full lg:h-[90%] flex flex-col lg:flex-row">
           <div className="w-full lg:w-[50%] h-[50%] md:h-[45%] lg:h-full flex flex-col justify-center">
             <div className="order-2 lg:order-1 w-full h-[85%] lg:h-[60%] flex justify-center lg:justify-end">
@@ -33,7 +33,7 @@ export const About = () => {
                 <div className="w-[90%] h-[90%] flex">
                   <div className="w-[50%] h-full">
                     <div className="h-[50%] w-full border-r-[1px] border-b-[1px] border-[#E0E0E0] flex justify-center items-center">
-                      <div className="w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
+                      <div className="about-boxes w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] sm:h-[80%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
                         <p className="text-[25px] md:text-[30px] lg:text-[40px] text-center tracking-wide font-Poppins text-[#E752FE]">
                           20+
                         </p>
@@ -43,7 +43,7 @@ export const About = () => {
                       </div>
                     </div>
                     <div className="h-[50%] w-full border-r-[1px] border-t-[1px] border-[#E0E0E0] flex justify-center items-center">
-                      <div className="w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
+                      <div className="about-boxes w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] sm:h-[80%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
                         <p className="text-[25px] md:text-[30px] lg:text-[40px] text-center tracking-wide font-Poppins text-[#E752FE]">
                           15+
                         </p>
@@ -55,7 +55,7 @@ export const About = () => {
                   </div>
                   <div className="w-[50%] h-full">
                     <div className="h-[50%] w-full border-l-[1px] border-b-[1px] border-[#E0E0E0] flex justify-center items-center">
-                      <div className="w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
+                      <div className="about-boxes w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] sm:h-[80%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
                         <p className="text-[25px] md:text-[30px] lg:text-[40px] text-center tracking-wide font-Poppins text-[#E752FE]">
                           7+
                         </p>
@@ -65,7 +65,7 @@ export const About = () => {
                       </div>{" "}
                     </div>
                     <div className="h-[50%] w-full border-l-[1px] border-t-[1px] border-[#E0E0E0] flex justify-center items-center">
-                      <div className="w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
+                      <div className="about-boxes w-[85%] md:w-[80%] lg:w-[85%] lg:h-[85%] h-[90%] sm:h-[80%] bg-[#FAFAFA] border rounded-2xl border-[#E752FE] flex flex-col justify-center">
                         <p className="text-[25px] md:text-[30px] lg:text-[40px] text-center tracking-wide font-Poppins text-[#E752FE]">
                           25+
                         </p>
