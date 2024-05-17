@@ -4,8 +4,8 @@ import SolutionButton from "../components/solutionbutton";
 
 export const Solutions = () => {
   return (
-    <section className="w-full h-[135vh] md:h-[70vh] lg:h-[100vh] bg-white flex justify-center items-center">
-      <div className=" w-[80%] h-full">
+    <section id="services" className="w-full h-[135vh] md:h-[70vh] lg:h-[100vh] flex justify-center items-center lg:mb-20 solution-section">
+      <div className=" w-[80%] h-full flex flex-col  justify-center">
         <div className=" w-full lg:w-[55%] xl:w-[50%] h-[18%] md:h-[25%] mb-10 md:mb-14 lg:mb-20">
           <p className="text-[30px] pb-3 lg:pb-7 md:text-[40px] text-center lg:text-start font-bold tracking-tighter font-Poppins text-[#181E4B]">
             SOLUTIONS

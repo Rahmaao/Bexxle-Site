@@ -6,6 +6,8 @@ import { Partners } from "../pages/partners";
 import { About } from "../pages/about";
 import { Solutions } from "../pages/solution";
 import { Process } from "../pages/process";
+import { Team } from "../pages/team";
+import { Quote } from "../pages/quote";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +26,8 @@ export default function RootLayout({ children }) {
         <About/>
         <Solutions/>
         <Process/>
+        <Team/>
+        <Quote/>
         <Footer />
       </body>
     </html>
