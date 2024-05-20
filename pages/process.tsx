@@ -88,4 +88,6 @@ export const Process = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Process;

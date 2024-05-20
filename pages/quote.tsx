@@ -93,4 +93,6 @@ export const Quote = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Quote;

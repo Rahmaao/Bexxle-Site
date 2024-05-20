@@ -81,4 +81,6 @@ export const Team = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Team;

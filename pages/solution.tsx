@@ -64,4 +64,6 @@ export const Solutions = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Solutions;
