@@ -3,7 +3,7 @@
 export const Quote = () => {
   return (
     <section id="contact" className="w-full h-[100vh] md:h-[70vh] lg:h-[100vh] bg-white flex justify-center items-center mb-10 md:mb-32 quote-section">
-      <div className=" w-[80%] h-full flex flex-col justify-evenly md:justify-between items-center">
+      <div className=" w-[80%] h-full flex flex-col border rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)] justify-evenly md:justify-between items-center">
         <div className=" w-full lg:w-[55%] xl:w-[50%] h-[10%] md:h-[18%] flex flex-col justify-center items-center">
           <p className="text-[30px] md:text-[40px] text-center lg:text-start font-bold tracking-tighter font-Poppins text-[#181E4B]">
             Want a Solution?
