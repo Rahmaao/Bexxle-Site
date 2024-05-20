@@ -13,7 +13,7 @@ export const Process = () => {
           </p>
         </div>
         <div
-          className="hidden xl:block relative w-full h-[65%] md:h-[75%] lg:h-[65%] bg-red-700 bg-contain bg-top bg-no-repeat"
+          className="hidden xl:block relative w-full h-[65%] md:h-[75%] lg:h-[65%] bg-white bg-contain bg-top bg-no-repeat"
           style={{ backgroundImage: "url('/wave.svg')" }}
         >
           <div className="w-56 h-44 absolute top-[350px] left-[200px] bg-transparent flex flex-col select-none group">
@@ -35,7 +35,7 @@ export const Process = () => {
             </div>
           </div>
 
-          <div className="w-60 h-44 absolute top-[205px] left-[620px] bg-transparent flex flex-col select-none group">
+          <div className="w-60 h-44 absolute top-[205px] left-[600px] bg-transparent flex flex-col select-none group">
             <div className="w-full h-[65%] flex">
               <div className="w-[70%] h-full flex flex-col">
                 <div className="w-16 h-16 bg-process hover:bg-process2 bg-contain bg-center bg-no-repeat transition-all duration-500 group-hover:bg-process2"></div>
