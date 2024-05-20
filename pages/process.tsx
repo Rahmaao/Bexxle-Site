@@ -35,7 +35,7 @@ export const Process = () => {
             </div>
           </div>
 
-          <div className="w-60 h-44 absolute top-[220px] left-[620px] bg-transparent flex flex-col select-none group">
+          <div className="w-60 h-44 absolute top-[205px] left-[620px] bg-transparent flex flex-col select-none group">
             <div className="w-full h-[65%] flex">
               <div className="w-[70%] h-full flex flex-col">
                 <div className="w-16 h-16 bg-process hover:bg-process2 bg-contain bg-center bg-no-repeat transition-all duration-500 group-hover:bg-process2"></div>
@@ -54,7 +54,7 @@ export const Process = () => {
             </div>
           </div>
 
-          <div className="w-60 h-44 absolute top-[15px] left-[850px] bg-transparent flex flex-col select-none group">
+          <div className="w-60 h-44 absolute top-[0px] left-[850px] bg-transparent flex flex-col select-none group">
             <div className="w-full h-[65%] flex">
               <div className="w-[70%] h-full flex flex-col">
                 <div className="w-16 h-16 bg-process hover:bg-process2 bg-contain bg-center bg-no-repeat transition-all duration-500 group-hover:bg-process2"></div>
